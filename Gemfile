@@ -37,6 +37,8 @@ gem 'devise'
 # Add Pexels to add an image API to obtain horse pictures
 gem 'pexels'
 
+# to load API keys as environment variables via a .env file
+gem "dotenv", groups: [ :development, :test ]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
