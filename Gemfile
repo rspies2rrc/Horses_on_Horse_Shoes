@@ -34,6 +34,9 @@ gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main
 gem 'activeadmin', '~> 2.11', '>= 2.11.1'
 gem 'devise'
 
+# Add Pexels to add an image API to obtain horse pictures
+gem 'pexels'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
